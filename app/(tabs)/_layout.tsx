@@ -29,6 +29,7 @@ const TabIcon = ({ focused, icon, title }: any) => {
 const _layout = () => {
   return (
     <Tabs
+      initialRouteName="index"
       screenOptions={{
         tabBarShowLabel: false,
         tabBarItemStyle: {
